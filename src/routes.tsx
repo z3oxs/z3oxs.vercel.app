@@ -4,7 +4,7 @@ import { Home } from './pages/Home';
 import { Blog } from './pages/Blog';
 import { Post } from './pages/Post';
 import { Error404 } from './pages/404';
-
+// inverti a ordem do 404 para 404
 export const Router = () => (
     <BrowserRouter>
         <Routes>
